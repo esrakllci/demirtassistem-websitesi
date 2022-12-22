@@ -1,0 +1,69 @@
+.footer {
+    @apply 
+    mt-0
+    pt-[47px] 
+    pl-[98px] 
+    pr-[134px]
+    h-60 
+    font-barlow
+    bg-[#1a1a1a]
+    hidden
+    md:grid
+    md:grid-cols-12
+    relative
+    z-30
+}
+
+.mail-input {
+    @apply
+    col-span-5
+}
+
+.mail-input img{
+    @apply 
+    h-16
+}
+
+.mail-input-hr {
+    font-size: 40px;
+    color: #FD7700;
+    background-color: #FD7700;
+}
+
+.mail-input input:focus{
+    outline: none;
+}
+
+.footer-copyright {
+    @apply
+    text-[#BCBCBC]
+    text-[15px]
+    mt-11
+}
+
+.footer-sociail-media {
+    @apply
+    my-auto
+    w-[116px]
+    col-span-1
+    flex
+    flex-col
+    items-center
+    text-[#BCBCBC]
+}
+
+.footer-social-media-logos {
+    @apply
+    flex
+    mt-[15px]
+}
+
+.instagram:hover {
+    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 30%;
+}
+
+.linkedin:hover {
+    color: #0077b5;
+}

@@ -1,0 +1,40 @@
+.about-base {
+    @apply
+    bg-[#131313] 
+}
+
+.container-about{
+    @apply
+    md:grid 
+    md:grid-cols-12 
+    bg-[#131313] 
+    text-[#FCFCFC]
+    md:mb-[133px]
+}
+.about-h{
+    @apply
+    text-center
+    md:mt-[120px]
+    mt-[80px]
+    md:text-3xl
+    text-[18px]
+    font-barlow
+    font-bold
+
+
+}
+.about-p{
+    @apply
+    text-left
+    md:mt-[88px]
+    mt-[33px]
+    md:text-lg
+    text-[12px]
+    font-satoshi
+    md:font-light
+    font-medium
+    tracking-widest
+    md:mb-0
+    mx-[40px]
+    md:mx-0
+}

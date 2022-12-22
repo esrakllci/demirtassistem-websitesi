@@ -1,0 +1,213 @@
+.contact-base {
+    @apply
+    bg-[#131313]
+}
+
+.contact-us {
+    @apply
+    mt-[140px]
+    md:text-[35px]
+    text-[20px]
+    font-bold
+    mb-[89px]
+    text-center
+}
+
+.contact-container {
+    @apply 
+    md:grid 
+    md:grid-cols-12 
+    text-[#FFFFFF] 
+    font-barlow 
+    font-medium 
+    md:mb-[150px]
+    pb-[180px]
+    md:pb-0
+}
+
+.contact-container2 {
+    @apply 
+    md:grid 
+    md:grid-cols-8
+}
+
+.contact-info {
+    @apply 
+    hidden
+    md:inline-block
+    md:col-span-4
+    pl-[38px] 
+    pt-[153px] 
+    pb-[40px]
+}
+
+.contact-info h2 {
+    @apply 
+    text-[20px]
+}
+
+.contact-info hr {
+    @apply 
+    w-[72px]
+}
+
+.contact-social-media-logos {
+    @apply
+    mt-[190px]
+    flex
+}
+
+.contact-form {
+    @apply 
+    flex
+    flex-col
+    rounded-2xl
+    md:rounded-none
+    mx-[40px]
+    md:mx-0
+    px-[38px] 
+    pt-[30px] 
+    pb-4
+    md:pb-0
+}
+
+.contact-form h2 {
+    @apply
+    text-[18px]
+}
+
+.contact-form hr {
+    @apply 
+    w-[72px]
+}
+
+.contact-form form {
+    @apply
+    mt-[23px]
+    font-light
+}
+
+.contact-form form input {
+    @apply
+    h-[27px]
+    rounded-[8px]
+}
+
+.contact-input1 {
+    @apply
+    w-full
+    h-[27px]
+    mt-2
+    pt-1
+    pb-[3px]
+    pl-[18px]
+}
+
+.contact-form form textarea {
+    @apply
+    w-full
+    mt-2
+    h-[150px]
+    md:h-[127px]
+    rounded-[8px]
+    pt-1
+    pl-[18px]
+    pb-3
+    pr-4
+    text-[#EFEFEF]
+    resize-none
+}
+
+.myBg2 {
+    background: rgba(230, 230, 230, 0.2);
+    backdrop-filter: blur(32px);
+}
+
+.myBg {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(30px);
+}
+
+.contact-form input:focus, textarea:focus{
+    outline: none;
+}
+
+.contact-submit {
+    @apply
+    border 
+    rounded-[25px] 
+    bg-[#FFFFFF] 
+    text-[#707070] 
+    w-[73px] 
+    h-[40px]
+    mx-auto
+    mt-[32px]
+    cursor-pointer
+    flex
+    justify-center
+    items-center
+}
+
+textarea::placeholder,
+input::placeholder {
+    @apply
+    text-[#EFEFEF]
+    text-[12px]
+    md:text-base
+}
+
+.box{
+    @apply
+    hidden
+    md:relative
+    md:flex
+}
+
+.box .sq{
+    position: absolute;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 9px;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0%, 100%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+}
+
+.box .square2{
+    @apply
+    top-[-20px]
+    left-[370px]
+    xl:left-[450px]
+    w-[50px]
+    h-[50px]
+}
+.box .square3{
+    @apply
+    top-[-300px]
+    left-[-70px]
+    w-[102px]
+    h-[100px]
+}
+.box .square4{
+    @apply
+    top-[-490px]
+    left-[600px]
+    md:left-[740px]
+    w-[102px]
+    h-[100px]
+}
+
+.box-img{
+    width: 211px;
+    height: 250px;
+}

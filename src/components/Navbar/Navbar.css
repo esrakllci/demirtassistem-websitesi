@@ -1,0 +1,147 @@
+.navbar {
+    @apply
+    text-[#FCFCFC]
+    pt-8
+    /* lg:grid */
+    /* lg:grid-cols-12 */
+    justify-center
+    items-center
+    font-barlow
+    relative
+    z-30
+}
+
+.navbar-pc {
+    @apply
+    hidden
+    md:grid
+    md:grid-cols-12
+    mx-[90px]
+}
+
+.navbar-logo {
+    @apply
+    col-span-2
+    /* ml-[88px] */
+    w-[190px]
+}
+
+.navbar-directions {
+    @apply
+    col-span-10
+}
+
+.navbar-directions ul {
+    @apply
+    text-[15px]
+    font-medium
+    flex
+    justify-end
+}
+
+.navbar-directions ul li {
+    @apply
+    mr-9
+    my-auto
+}
+
+.sidebar.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 240px;
+    /* background: rgba(230, 230, 230, 0.2); */
+    background-color: #131313;
+    backdrop-filter: blur(32px);
+    padding: 6px 14px;
+}
+
+.sidebar.active .logo-content .logo {
+    color: white;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+.sidebar.active .logo-content .logo i {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.logo-content .logo .logo_name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sidebar.active #btn {
+    position: absolute;
+    color: white;
+    left: 90%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+.sidebar #btn {
+    position: fixed;
+    color: white;
+    left:10%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    z-index: 500;
+    
+}
+
+.sidebar.active ul{
+    display:block;
+    margin-top: 80px;
+}
+
+.sidebar.active ul li{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 30px;
+    text-decoration: underline;
+    list-style: none;
+    color: white;
+    font-weight: 200;
+    line-height: 1px;
+    text-align: left;
+}
+
+
+.sidebar.active .social{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    display: flex;
+    
+}
+
+.sidebar ul{
+    display: none;
+}
+.sidebar .social{
+    display: none;
+}
+
+.instagram:hover {
+    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 30%;
+}
+
+.linkedin:hover {
+    color: #0077b5;
+}
